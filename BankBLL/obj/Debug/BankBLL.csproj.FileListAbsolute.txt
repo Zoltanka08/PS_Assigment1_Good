@@ -1,0 +1,10 @@
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\obj\Debug\BankBLL.csprojResolveAssemblyReference.cache
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\bin\Debug\BankBLL.exe.config
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\bin\Debug\BankBLL.exe
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\bin\Debug\BankBLL.pdb
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\bin\Debug\BankDAL.exe
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\bin\Debug\EntityFramework.dll
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\bin\Debug\BankDAL.pdb
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\bin\Debug\EntityFramework.xml
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\obj\Debug\BankBLL.exe
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\obj\Debug\BankBLL.pdb

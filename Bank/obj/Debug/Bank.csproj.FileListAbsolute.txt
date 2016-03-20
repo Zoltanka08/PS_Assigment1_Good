@@ -1,0 +1,17 @@
+c:\users\zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.LogIn.resources
+c:\users\zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+c:\users\zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.Cache
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\bin\Debug\Bank.exe.config
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\bin\Debug\Bank.exe
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\bin\Debug\BankBLL.exe
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\bin\Debug\BankDAL.exe
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\bin\Debug\EntityFramework.dll
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\bin\Debug\BankBLL.pdb
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\bin\Debug\BankDAL.pdb
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\bin\Debug\EntityFramework.xml
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.exe
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.pdb
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.Employee.resources
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.EmployeeData.resources

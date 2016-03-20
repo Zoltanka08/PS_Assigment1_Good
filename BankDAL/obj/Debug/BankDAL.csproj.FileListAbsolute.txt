@@ -1,0 +1,10 @@
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\bin\Debug\BankDAL.exe.config
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\bin\Debug\BankDAL.exe
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\bin\Debug\BankDAL.pdb
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\bin\Debug\EntityFramework.dll
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\bin\Debug\EntityFramework.xml
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\obj\Debug\BankDAL.exe
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\obj\Debug\BankDAL.pdb
+C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\obj\Debug\BankDAL.csprojResolveAssemblyReference.cache
