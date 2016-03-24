@@ -20,3 +20,25 @@ C:\Users\Zoli\Documents\Visual Studio 2013\Projects\Bank\Bank\obj\Debug\Bank.Uti
 C:\Users\Zoli\Documents\Visual Studio 2013\Projects\Bank\Bank\obj\Debug\Bank.Admin.resources
 C:\Users\Zoli\Documents\Visual Studio 2013\Projects\Bank\Bank\obj\Debug\Bank.ReportView.resources
 C:\Users\Zoli\Documents\Visual Studio 2013\Projects\Bank\Bank\obj\Debug\Bank.UserView.resources
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\Bank.exe.config
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.exe
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.pdb
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\Bank.exe
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\Bank.pdb
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\BankBLL.exe
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\BankDAL.exe
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\EntityFramework.dll
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\BankBLL.pdb
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\BankDAL.pdb
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\EntityFramework.xml
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.AccountView.resources
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.Admin.resources
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.Employee.resources
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.EmployeeData.resources
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.LogIn.resources
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.ReportView.resources
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.UserView.resources
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.UtilityBill.resources
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.Cache
