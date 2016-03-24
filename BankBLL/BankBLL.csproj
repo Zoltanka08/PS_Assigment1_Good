@@ -38,8 +38,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountBL.cs" />
+    <Compile Include="AdminBL.cs" />
     <Compile Include="EmployeeBL.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="TransferBL.cs" />
+    <Compile Include="TypeBL.cs" />
+    <Compile Include="UserActionBL.cs" />
+    <Compile Include="UserBL.cs" />
     <Compile Include="ValidateCredentials.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -100,6 +100,9 @@
     <Compile Include="DataObjects\AccountData.cs" />
     <Compile Include="DataObjects\ClientData.cs" />
     <Compile Include="DataObjects\RoleData.cs" />
+    <Compile Include="DataObjects\TypeData.cs" />
+    <Compile Include="DataObjects\UserActionData.cs" />
+    <Compile Include="DataObjects\UserActionMapper.cs" />
     <Compile Include="DataObjects\UserData.cs" />
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>

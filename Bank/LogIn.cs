@@ -14,6 +14,7 @@ namespace Bank
     public partial class LogIn : Form
     {
         private ValidateCredentials validator;
+        private UserBL userBL = new UserBL();
         public LogIn()
         {
             validator = new ValidateCredentials();
@@ -35,7 +36,7 @@ namespace Bank
             else if (role.Equals("employee"))
             {
                 this.Hide();
-                Employee employeeView = new Employee();
+                Employee employeeView = new Employee(userBL.GetUserByUsername(username));
                 employeeView.Show();
             }
             else

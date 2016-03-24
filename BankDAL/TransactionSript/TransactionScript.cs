@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BankDAL.DataObjects;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BankDAL
 {
-    class TransactionScript
+    public class TransactionScript
     {
         private DbConnection db = new DbConnection();
 
@@ -39,7 +40,27 @@ namespace BankDAL
             return client;
         }
 
-        public void InsertClient(ClientData client)
+        public ClientData GetClientByCNP(string cnp)
+        {
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Client WHERE CNP = '" + cnp + "'");
+            DataTable dt = db.ExecuteReader(cmd);
+            DataRow row = dt.Rows[0];
+            ClientData client = new ClientData()
+            {
+                Id = Convert.ToInt32(row["Id"]),
+                Firstnme = row["Firstnme"].ToString(),
+                Lastname = row["Lastname"].ToString(),
+                Mobile = row["Mobile"].ToString(),
+                CNP = row["CNP"].ToString(),
+                Street = row["Street"].ToString(),
+                City = row["City"].ToString(),
+                Number = row["Number"].ToString()
+            };
+
+            return client;
+        }
+
+        public bool InsertClient(ClientData client)
         {
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
@@ -53,15 +74,24 @@ namespace BankDAL
             cmd.Parameters.AddWithValue("@str",client.Street);
             cmd.Parameters.AddWithValue("@nr",client.Number);
 
-            db.ExecuteNonQuery(cmd);
+            try
+            {
+                db.ExecuteNonQuery(cmd);
+            }
+            catch(SqlException)
+            {
+                return false;
+            }
+
+            return true;
         }
 
-        public void UpdateClient(ClientData client, int id)
+        public bool UpdateClient(ClientData client)
         {
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = @"UPDATE Client SET Firstnme = @fn, Lastname = @ln, CNP = @cnp, Mobile = @mob, City = @city, Street = @str, Number = @nr
-                                                WHERE Id = " + id;
+                                                WHERE Id = " + client.Id;
             cmd.Parameters.AddWithValue("@fn", client.Firstnme);
             cmd.Parameters.AddWithValue("@ln", client.Lastname);
             cmd.Parameters.AddWithValue("@cnp", client.CNP);
@@ -70,16 +100,49 @@ namespace BankDAL
             cmd.Parameters.AddWithValue("@str", client.Street);
             cmd.Parameters.AddWithValue("@nr", client.Number);
 
-            db.ExecuteNonQuery(cmd);
+            try
+            {
+                db.ExecuteNonQuery(cmd);
+            }
+            catch(SqlException)
+            {
+                return false;
+            }
+
+            return true;
         }
 
-        public void DeleteClient(int id)
+        public bool DeleteClient(int id)
         {
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = @"DELETE FROM Client WHERE Id =" + id;
 
-            db.ExecuteNonQuery(cmd);
+            try
+            {
+                db.ExecuteNonQuery(cmd);
+            }
+            catch(SqlException)
+            {
+                return false;
+            }
+
+            return true;
         }
+
+        public TypeData GetTypeById(int id)
+        {
+            SqlCommand cmd = new SqlCommand("SELECT * FROM [Type] WHERE Id = " + id );
+            DataTable dt = db.ExecuteReader(cmd);
+            DataRow row = dt.Rows[0];
+            TypeData type = new TypeData()
+            {
+                Id = Convert.ToInt32(row["Id"]),
+                Name = row["Name"].ToString()
+            };
+
+            return type;
+        }
+
     }
 }

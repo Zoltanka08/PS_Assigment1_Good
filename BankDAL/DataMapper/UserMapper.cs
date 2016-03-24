@@ -19,7 +19,7 @@ namespace BankDAL.DataMapper
                 this.connection = new DbConnection();
         }
 
-        public void InsertUser(UserData user)
+        public bool InsertUser(UserData user)
         {
             SqlCommand command = new SqlCommand();
             command.CommandType = CommandType.Text;
@@ -34,7 +34,43 @@ namespace BankDAL.DataMapper
             command.Parameters.AddWithValue("@mail", user.Mail);
             command.Parameters.AddWithValue("@role", user.RoleId);
 
-            connection.ExecuteNonQuery(command);
+            try
+            {
+                connection.ExecuteNonQuery(command);
+            }
+            catch(SqlException)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public bool UpdateUser(UserData user)
+        {
+
+            SqlCommand command = new SqlCommand();
+            command.CommandType = CommandType.Text;
+
+            command.CommandText = @"UPDATE [User] SET Firstname = @fn, Lastname = @ln, Username = @usn, Mobile = @mob, Mail = @mail, Password = @pass, RoleId = @role
+                                                WHERE Id = " + user.Id;
+            command.Parameters.AddWithValue("@usn", user.Username);
+            command.Parameters.AddWithValue("@pass", user.Password);
+            command.Parameters.AddWithValue("@fn", user.Firstname);
+            command.Parameters.AddWithValue("@ln", user.Lastname);
+            command.Parameters.AddWithValue("@mob", user.Mobile);
+            command.Parameters.AddWithValue("@mail", user.Mail);
+            command.Parameters.AddWithValue("@role", user.RoleId);
+
+            try
+            {
+                connection.ExecuteNonQuery(command);
+            }
+            catch(SqlException)
+            {
+                return false;
+            }
+
+            return true;
         }
 
        public IEnumerable<UserData> GetAll()
@@ -104,6 +140,15 @@ namespace BankDAL.DataMapper
 
            return user;
        }
-        
+
+       public void DeleteUser(int id)
+       {
+           SqlCommand command = new SqlCommand();
+           command.CommandType = CommandType.Text;
+
+           command.CommandText = @"DELETE FROM [User] WHERE Id = " + id;
+
+           connection.ExecuteNonQuery(command);
+       }
     }
 }

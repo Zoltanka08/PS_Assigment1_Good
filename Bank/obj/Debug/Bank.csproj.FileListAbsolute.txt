@@ -15,3 +15,8 @@ C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.exe
 C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.pdb
 C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.Employee.resources
 C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.EmployeeData.resources
+C:\Users\Zoli\Documents\Visual Studio 2013\Projects\Bank\Bank\obj\Debug\Bank.AccountView.resources
+C:\Users\Zoli\Documents\Visual Studio 2013\Projects\Bank\Bank\obj\Debug\Bank.UtilityBill.resources
+C:\Users\Zoli\Documents\Visual Studio 2013\Projects\Bank\Bank\obj\Debug\Bank.Admin.resources
+C:\Users\Zoli\Documents\Visual Studio 2013\Projects\Bank\Bank\obj\Debug\Bank.ReportView.resources
+C:\Users\Zoli\Documents\Visual Studio 2013\Projects\Bank\Bank\obj\Debug\Bank.UserView.resources
