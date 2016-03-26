@@ -8,3 +8,11 @@ C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\bin\Debug\BankD
 C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\bin\Debug\EntityFramework.xml
 C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\obj\Debug\BankBLL.exe
 C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankBLL\obj\Debug\BankBLL.pdb
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankBLL\bin\Debug\BankBLL.exe.config
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankBLL\bin\Debug\BankBLL.exe
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankBLL\bin\Debug\BankBLL.pdb
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankBLL\bin\Debug\BankDAL.exe
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankBLL\bin\Debug\BankDAL.pdb
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankBLL\obj\Debug\BankBLL.csprojResolveAssemblyReference.cache
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankBLL\obj\Debug\BankBLL.exe
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankBLL\obj\Debug\BankBLL.pdb

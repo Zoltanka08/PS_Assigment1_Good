@@ -8,3 +8,12 @@ C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\bin\Debug\Entit
 C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\obj\Debug\BankDAL.exe
 C:\Users\Zoli\documents\visual studio 2013\Projects\Bank\BankDAL\obj\Debug\BankDAL.pdb
 C:\Users\Zoli\Documents\Visual Studio 2013\Projects\Bank\BankDAL\obj\Debug\BankDAL.csprojResolveAssemblyReference.cache
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\bin\Debug\BankDAL.exe.config
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\bin\Debug\BankDAL.exe
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\bin\Debug\BankDAL.pdb
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\bin\Debug\EntityFramework.dll
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\bin\Debug\EntityFramework.xml
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\obj\Debug\BankDAL.exe
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\obj\Debug\BankDAL.pdb

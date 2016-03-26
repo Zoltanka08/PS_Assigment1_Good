@@ -27,10 +27,8 @@ E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\Bank.exe
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\Bank.pdb
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\BankBLL.exe
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\BankDAL.exe
-E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\EntityFramework.dll
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\BankBLL.pdb
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\BankDAL.pdb
-E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\bin\Debug\EntityFramework.xml
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.AccountView.resources
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\Bank\obj\Debug\Bank.Admin.resources

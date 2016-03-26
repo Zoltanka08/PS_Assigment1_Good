@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace BankBLL
@@ -33,6 +34,11 @@ namespace BankBLL
         public bool UpdateClient(ClientData client)
         {
             bool valid = true;
+            string numberPattern = "^[0-9]+$";
+
+            if (client.Mobile != null)
+                if (!Regex.IsMatch(client.Mobile, numberPattern))
+                    return false;
 
             if(client!=null)
             {
@@ -59,6 +65,11 @@ namespace BankBLL
         public bool InserClient(ClientData client)
         {
             bool valid = true;
+            string numberPattern = "^[0-9]+$";
+
+            if (client.Mobile != null)
+                if (!Regex.IsMatch(client.Mobile, numberPattern))
+                    return false;
 
             if (client != null)
             {

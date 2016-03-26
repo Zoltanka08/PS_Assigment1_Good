@@ -15,6 +15,9 @@ namespace BankBLL
 
         public bool InsertAccount(AccountData account)
         {
+            if (account.Balance < 0 || account.IBAN.Length < 10)
+                return false;
+
             bool valid = true;
             if(account != null)
             {
@@ -38,6 +41,10 @@ namespace BankBLL
         public bool UpdateAccount(AccountData account)
         {
             bool valid = true;
+
+            if (account.Balance < 0 || account.IBAN.Length < 10)
+                return false;
+
             if (account != null)
             {
                 if (account.IBAN == null)
