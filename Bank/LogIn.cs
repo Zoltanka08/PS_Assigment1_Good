@@ -29,13 +29,13 @@ namespace Bank
 
             if (role.Equals("admin"))
             {
-                this.Hide();
+                //this.Hide();
                 Admin adminView = new Admin();
                 adminView.Show();
             }
             else if (role.Equals("employee"))
             {
-                this.Hide();
+                //this.Hide();
                 Employee employeeView = new Employee(userBL.GetUserByUsername(username));
                 employeeView.Show();
             }

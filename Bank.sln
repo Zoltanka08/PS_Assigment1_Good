@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{2DEB4DD1-E9CB-45A3-8D12-C055641BC8A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankPL", "Bank\BankPL.csproj", "{2DEB4DD1-E9CB-45A3-8D12-C055641BC8A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankDAL", "BankDAL\BankDAL.csproj", "{F5D15DD7-9580-4352-9001-B4D97E006C64}"
 EndProject

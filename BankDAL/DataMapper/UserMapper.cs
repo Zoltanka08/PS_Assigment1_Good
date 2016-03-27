@@ -126,7 +126,7 @@ namespace BankDAL.DataMapper
            SqlCommand cmd = new SqlCommand("SELECT * FROM [User] WHERE [Username] = '" + username + "'");
            DataTable dt = connection.ExecuteReader(cmd);
 
-           if (dt.DataSet == null)
+           if (dt.Rows.Count == 0)
                return null;
 
            DataRow row = dt.Rows[0];
