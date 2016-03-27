@@ -62,7 +62,7 @@
     <Compile Include="DataObjects\RoleData.cs" />
     <Compile Include="DataObjects\TypeData.cs" />
     <Compile Include="DataObjects\UserActionData.cs" />
-    <Compile Include="DataObjects\UserActionMapper.cs" />
+    <Compile Include="DataMapper\UserActionMapper.cs" />
     <Compile Include="DataObjects\UserData.cs" />
     <Compile Include="Connection\DbConnection.cs" />
     <Compile Include="Interfaces\IDataMapper.cs" />

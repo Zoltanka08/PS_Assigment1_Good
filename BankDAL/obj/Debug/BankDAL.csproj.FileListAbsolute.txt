@@ -17,3 +17,4 @@ E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\bin\Debug\Entity
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\bin\Debug\EntityFramework.SqlServer.xml
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\obj\Debug\BankDAL.exe
 E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\obj\Debug\BankDAL.pdb
+E:\University\AnIII\Sem II\PS\Lab\Assigment1\Final\Bank\BankDAL\obj\Debug\BankDAL.csprojResolveAssemblyReference.cache
