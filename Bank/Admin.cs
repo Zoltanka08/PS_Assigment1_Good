@@ -41,7 +41,7 @@ namespace Bank
                 default:
                     break;
             }
-            
+
         }
 
         private void InitializeListBox()
@@ -67,9 +67,10 @@ namespace Bank
 
         private void ReportButton_Click(object sender, EventArgs e)
         {
+            DateTime startDate = this.StartDatePicker.Value.Date;
             EmployeeName selectedItem = listBox1.SelectedItem as EmployeeName;
             UserData user = adminBL.GetUserById(selectedItem.Id);
-            ReportView report = new ReportView(userActionBL.GetByUserId(user.Id).ToList());
+            ReportView report = new ReportView(userActionBL.GetByUserId(user.Id, startDate).ToList());
             report.Show();
         }
 
@@ -85,6 +86,11 @@ namespace Bank
         {
             UserView userView = new UserView(null);
             userView.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

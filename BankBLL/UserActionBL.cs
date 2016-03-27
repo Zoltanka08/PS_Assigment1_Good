@@ -11,9 +11,9 @@ namespace BankBLL
     {
         private UserActionMapper userActionMapper = new UserActionMapper();
 
-        public IEnumerable<UserActionData> GetByUserId(int id)
+        public IEnumerable<UserActionData> GetByUserId(int id, DateTime startDate)
         {
-            return userActionMapper.GetByUserId(id);
+            return userActionMapper.GetByUserId(id).Where(a => a.Timestamp > startDate);
         }
 
         public bool InsertUserAction(UserActionData action)
